@@ -1,6 +1,11 @@
 
 body {
-	background-color: rgb(111, 111, 111);
+	background-color: whitesmoke;
+}
+
+p {
+	margin: 5px;
+	padding: 10px;
 }
 
 .header {
@@ -8,10 +13,29 @@ body {
 	font-size: 30pt;
 	font-weight: bold;
 	border: 4px double black;
-	padding: 10px;
-	margin: 100px 30px;
+	margin: 30px;
+	
 }
 
 .article {
 	background-color: rgb(10, 200, 180);
+	float: left;
+	width: 60%;
+	border-radius: 5px;
+	margin: 30px;
+}
+
+.navigate{
+	background-color: rgb(100, 200, 10);
+	float: right;
+	width: 25%;
+	border-radius: 5px;
+	margin: 30px;
+}
+
+.end {
+	clear: both;
+	background-color: rgb(200, 20, 180);
+	border-radius: 5px;
+	margin: 30px;
 }
