@@ -1,0 +1,24 @@
+
+body {
+	background-color: whitesmoke;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 30px;
+}
+
+p {
+	margin: 5px;
+	padding: 10px;
+}
+
+.table-1 {
+	border-top: solid 2px black;
+	
+}
+
+.table-1 > tr > td {
+	background-color: green; 
+} 
+
+img {
+	height: 50px;
+}
