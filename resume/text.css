@@ -29,7 +29,9 @@ hr {
 
 p {
 	margin: 5px;
+	margin-bottom: 0px;
 	padding: 10px;
+	padding-bottom: 0px;
 }
 
 .table-1 {
@@ -67,7 +69,7 @@ img {
 .left {
 	float: left;
 	clear: left;
-	width: 35%;
+	width: 30%;
 	font-size: 15pt;
 	color: grey;
 }
@@ -86,6 +88,10 @@ img {
 	clear: both;
 }
 
-div > ul {
-	margin-top: 0px;
+.right > ul {
+	margin: 0px;
+}
+
+.right > ul > li {
+	margin-left: -25px; 
 }
